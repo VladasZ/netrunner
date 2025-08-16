@@ -1,0 +1,10 @@
+[package]
+name = "tests"
+version = "0.1.0"
+edition = "2024"
+authors = ["Vladas Zakrevksis <146100@gmail.com>"]
+
+[[bin]]
+name = "tests"
+
+[dependencies]

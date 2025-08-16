@@ -1,0 +1,16 @@
+[package]
+name = "netrun"
+version = "0.1.0"
+edition = "2024"
+authors = ["Vladas Zakrevksis <146100@gmail.com>"]
+description = "Network abstraction primitives"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/VladasZ/netrun"
+repository = "https://github.com/VladasZ/netrun"
+
+[lib]
+name = "netrun"
+crate-type = ["rlib", "staticlib", "dylib"]
+
+
+[dependencies]
